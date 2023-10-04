@@ -1,19 +1,12 @@
-def find_insert_position(sorted_list, new_element):
-    left, right = 0, len(sorted_list) - 1
+def insert_into_sorted_list(arr, target):
+    sorted_arr = sorted(arr + [target])
+    index = sorted_arr.index(target)
+    arr[:] = sorted_arr 
+    return index
 
-    while left <= right:
-        mid = (left + right) // 2
-        if sorted_list[mid] == new_element:
-            return mid  # Елемент вже присутній у списку
-        elif sorted_list[mid] < new_element:
-            left = mid + 1
-        else:
-            right = mid - 1
 
-    return left  # Повертаємо позицію для вставки нового елементу
-
-# Приклад використання:
 sorted_list = [1, 3, 5, 7, 9]
-new_element = 6
-position = find_insert_position(sorted_list, new_element)
-print(f"Елемент {new_element} має бути вставлений на позицію {position}")
+new_element = 4
+position = insert_into_sorted_list(sorted_list, new_element)
+print("Позиція для вставки:", position)
+print("Оновлений список:", sorted_list)
