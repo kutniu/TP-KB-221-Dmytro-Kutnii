@@ -2,8 +2,9 @@ import os
 from functions import *
 from operations import *
 
-log_file_path = r"D:\Документи\Універ\3 семестр\Технології програмування\TP-KB-221-Dmytro-Kutnii\topic_06\task1\calculator_log.txt"
-
+log_file_name = "calculator_log.txt"
+current_directory = os.path.dirname(os.path.abspath(__file__))
+log_file_path = os.path.join(current_directory, log_file_name)
 
 if not os.path.isfile(log_file_path):
     with open(log_file_path, "w") as log_file:

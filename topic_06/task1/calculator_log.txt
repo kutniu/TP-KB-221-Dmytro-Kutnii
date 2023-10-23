@@ -1,3 +1,7 @@
 Calculator Log:
-Action: Subtraction, Data: 4.0 - 8.0, Result: -4.0
-Action: Division, Data: 7.0 / 0.0, Result: Помилка: Ділення на нуль неможливе
+Action: Multiplication, Data: 5.0 * 7.0, Result: 35.0
+Action: Subtraction, Data: 7.0 - 9548.0, Result: -9541.0
+Action: Division, Data: 65789.0 / 0.0, Result: Error: Division by zero is not possible
+Action: Addition, Data: 8745.0 + 89456.0, Result: 98201.0
+Action: Multiplication, Data: 84.0 * 65489.0, Result: 5501076.0
+Action: Subtraction, Data: 2.548 - 98754.587, Result: -98752.039

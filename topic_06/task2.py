@@ -1,9 +1,11 @@
-data = [{'name': 'John', 'grade': 40},
-        {'name': 'Emily', 'grade': 35},
+data = [{'name': 'John', 'grade': 75},
+        {'name': 'Emily', 'grade': 76},
         {'name': 'Michael', 'grade': 88},
-        {'name': 'David', 'grade': 22},
-        {'name': 'Sophia', 'grade': 30},
-        {'name': 'Oliver', 'grade': 55}]
+        {'name': 'David', 'grade': 21},
+        {'name': 'Sophia', 'grade': 89},
+        {'name': 'Oleg', 'grade': 90},
+        {'name': 'Tate', 'grade': 75},
+        {'name': 'Oliver', 'grade': 100}]
 
 parameter = input("Виберіть ключ для сортування (name або grade): ")
 reverse_sort = input("Сортувати від більшого до меншого (yes/no)? ").lower()

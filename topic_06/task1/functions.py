@@ -11,4 +11,4 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "Помилка: Ділення на нуль неможливе"
+        return "Error: Division by zero is not possible"
