@@ -1,0 +1,4 @@
+Calculator Log:
+Action: Division, Data: 8.0 / 2.0, Result: 4.0
+Action: Subtraction, Data: 845.0 - 3248.0, Result: -2403.0
+Action: Division, Data: 84.0 / 0.0, Result: Error: Division by zero is not possible
